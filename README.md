@@ -1,6 +1,5 @@
-# Vim cheatsheet 
-
-VS Code extension that lets you open a vim cheatsheet directly in the editor to expand your vim vocabulary.
+<h2 align="center"><img src="https://github.com/andyalex234/vim-cheatsheet/blob/main/images/icon.png?raw=true" height="128"><br>Vim Cheatsheet</h2>
+<p align="center"><strong>VS Code extension that lets you open a vim cheatsheet directly in the editor to expand your vim vocabulary.</strong></p>
 
 ## Features
 
@@ -18,11 +17,6 @@ The colors of the cheatsheet automatically adapt to the selected theme. The font
 
 ## Requirements
 This plugin is best used in conjuction with [VSCodeVim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim).
-## Demo
-
-#### Using the `Open Vim Cheatsheet` command
-
-![Demo using "Open Vim Cheatsheet" the command](images/demo/command.gif)
 
 ## Release Notes
 
