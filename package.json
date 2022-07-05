@@ -8,6 +8,14 @@
 		"vscode": "^1.68.0"
 	},
 	"icon": "images/icon.png",
+	"publisher": "AndenetAlexander",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/andyalex234/vim-cheatsheet"
+	},
+	"vsce": {
+		"githubBranch": "main"
+	},
 	"categories": [
 		"Other"
 	],
