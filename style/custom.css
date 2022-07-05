@@ -1,0 +1,49 @@
+body {
+  font-family: var(--vscode-editor-font-family);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  padding-bottom: 1.25rem;
+}
+
+.tip-container {
+  border-left: 10px solid orange;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.tip-container > h2 {
+    justify-content: baseline;
+}
+
+details > summary {
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px; 
+}
+
+details > ul > li {
+    list-style: none;
+    padding-top: 15px;
+    line-height: 1.9;
+    
+}
+
+details > ul > li> span {
+    background-color: #eeeeee;
+    padding: 4px;
+    color: black;
+    margin: 10px;
+    box-shadow: 1px 1px 2px #bbbbbb;
+    text-align: center;
+}
+
