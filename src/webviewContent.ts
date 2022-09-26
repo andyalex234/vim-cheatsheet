@@ -22,7 +22,7 @@ export function getWebviewContent(
     <h1>Vim Cheatsheet</h1>
     <div class="tip-container">
       <h2><span><img src="${imagesPath}/light-bulb.svg" alt="basic cursor movements" /></span> Tip</h2> 
-      <p>See helpful vim commands right from your editor, narrow down your list by toggling off the once you’ve memorised/mastered. Make sure vim you’ve installed vim extention link.</p>
+      <p>See helpful vim commands right from your editor, narrow down your list by toggling off the ones you’ve memorised/mastered. Make sure you’ve installed a vim extension.</p>
     </div>
       <details open>
         <summary> Cursor Movement </summary>
@@ -41,35 +41,35 @@ export function getWebviewContent(
             <path d="M131.16 99.3406C131.16 98.5121 130.488 97.8406 129.66 97.8406C128.831 97.8406 128.16 98.5121 128.16 99.3406L131.16 99.3406ZM128.599 149.869C129.185 150.455 130.135 150.455 130.72 149.869L140.266 140.323C140.852 139.738 140.852 138.788 140.266 138.202C139.681 137.616 138.731 137.616 138.145 138.202L129.66 146.687L121.175 138.202C120.589 137.616 119.639 137.616 119.053 138.202C118.467 138.788 118.467 139.738 119.053 140.323L128.599 149.869ZM128.16 99.3406L128.16 148.809L131.16 148.809L131.16 99.3406L128.16 99.3406Z" fill="#00D1FF"/>
             <path d="M175.234 51.4681C175.234 52.2966 175.906 52.9681 176.734 52.9681C177.563 52.9681 178.234 52.2966 178.234 51.4681H175.234ZM177.795 0.939298C177.209 0.353511 176.26 0.353511 175.674 0.939298L166.128 10.4852C165.542 11.071 165.542 12.0208 166.128 12.6066C166.714 13.1923 167.663 13.1923 168.249 12.6066L176.734 4.12128L185.22 12.6066C185.805 13.1923 186.755 13.1923 187.341 12.6066C187.927 12.0208 187.927 11.071 187.341 10.4852L177.795 0.939298ZM178.234 51.4681V1.99996H175.234V51.4681H178.234Z" fill="#00D1FF"/>
           </svg>
-          <li> <span> h </span> – move cursor left </li>
-          <li> <span> j </span> - move cursor down </li>
-          <li> <span> k </span> - move cursor up  </li>
-          <li> <span> l </span> - move cursor right </li>
-          <li> <span> H </span> - move to top of screen </li>
-          <li> <span> M </span> - move to middle of screen </li>
-          <li> <span> L </span> - move to bottom of screen </li>
+          <li> <span> h </span> – move cursor left</li>
+          <li> <span> j </span> - move cursor down</li>
+          <li> <span> k </span> - move cursor up</li>
+          <li> <span> l </span> - move cursor right</li>
+          <li> <span> H </span> - move to top of screen</li>
+          <li> <span> M </span> - move to middle of screen</li>
+          <li> <span> L </span> - move to bottom of screen</li>
           <li> <span> w </span> - jump forwards to the start of a word</li>
-          <li> <span> W </span> - jump forwards to the start of a word (words can contain punctuation) </li>
-          <li> <span> e </span> - jump forwards to the end of a word </li>
-          <li> <span> E </span> - jump forwards to the end of a word (words can contain punctuaion)</li>
+          <li> <span> W </span> - jump forwards to the start of a word (words can contain punctuation)</li>
+          <li> <span> e </span> - jump forwards to the end of a word</li>
+          <li> <span> E </span> - jump forwards to the end of a word (words can contain punctuation)</li>
           <li> <span> b </span> - jump backwards to the start of a word</li>
-          <li> <span> B </span> - jump backwards to the start of a word (words can contain punctuaion)</li>
-          <li> <span> 0 </span> - jump to the start of the line </li>
+          <li> <span> B </span> - jump backwards to the start of a word (words can contain punctuation)</li>
+          <li> <span> 0 </span> - jump to the start of the line</li>
           <li> <span> ^ </span> - jump to the first non-blank character of the line</li>
-          <li> <span> $ </span> - jump to the end of the line </li>
+          <li> <span> $ </span> - jump to the end of the line</li>
           <li> <span> g_ </span> - jump to the last non-blank character of the line</li>
           <li> <span> gg </span> - go to the first line of the document</li>
           <li> <span> G </span> - go to the last line of the document</li>
           <li> <span> 5G </span> - go to line 5</li>
-          <li> <span> fx </span> - jump to next occurrence of character x </li>
-          <li> <span> tx </span> - jump to before next occurrence of character x </li>
+          <li> <span> fx </span> - jump to next occurrence of character x</li>
+          <li> <span> tx </span> - jump to before next occurrence of character x</li>
           <li> <span> } </span> - jump to next paragraph (or function/block, when editing code)</li>
           <li> <span> { </span> - jump to previous paragraph (or function/block, when editing code)</li>
-          <li> <span> zz </span> - Center cursor on screen </li>
-          <li> <span> Ctrl + b </span> - move back one full screen </li>
-          <li> <span> Ctrl + f </span> - move forward one full screen </li>
-          <li> <span> Ctrl + d </span> - move forward 1/2 a screen </li>
-          <li> <span> Ctrl + u </span> - move back 1/2 a screen </li>
+          <li> <span> zz </span> - center cursor on screen</li>
+          <li> <span> Ctrl + b </span> - move back one full screen</li>
+          <li> <span> Ctrl + f </span> - move forward one full screen</li>
+          <li> <span> Ctrl + d </span> - move forward 1/2 a screen</li>
+          <li> <span> Ctrl + u </span> - move back 1/2 a screen</li>
           <div class="tip-container">
               <h2><span><img src="${imagesPath}/light-bulb.svg" alt="basic cursor movements" /></span> Tip</h2> 
               <p>Prefix a cursor movement command with a number to repeat it. For example, 4j moves down 4 lines.</p>
@@ -110,56 +110,56 @@ export function getWebviewContent(
           <li> <span> ea </span> – insert (append) at the end of the word</li>
           <li> <span> Ctrl + h </span> – delete the character before the cursor during insert mode</li>
           <li> <span> Ctrl + w </span> – delete the word before the cursor during insert mode</li>
-          <li> <span> Ctrl + j </span> – begin new line during insert mode </li>
-          <li> <span> Ctrl + t </span> – indent(move right) line one shiftwidth during insert mode </li>
-          <li> <span> Ctrl + d </span> – de-indent(move left) line one shiftwidth during insert mode </li>
-          <li> <span> Ctrl + n </span> – insert(auto-complete) next match before the cursor during insert mode </li>
-          <li> <span> Ctrl + p </span> – insert(auto-complete) previous match before the cursor during insert mode </li>
-          <li> <span> Ctrl + rx </span> – insert the contents of register x </li>
-          <li> <span> Ctrl + ox </span> – Temporarily enter normal mode to issue one normal-mode command x. </li>
-          <li> <span> Esc </span> – exit insert mode </li>
+          <li> <span> Ctrl + j </span> – begin new line during insert mode</li>
+          <li> <span> Ctrl + t </span> – indent (move right) line one shiftwidth during insert mode</li>
+          <li> <span> Ctrl + d </span> – de-indent (move left) line one shiftwidth during insert mode</li>
+          <li> <span> Ctrl + n </span> – insert (auto-complete) next match before the cursor during insert mode</li>
+          <li> <span> Ctrl + p </span> – insert(auto-complete) previous match before the cursor during insert mode</li>
+          <li> <span> Ctrl + rx </span> – insert the contents of register x</li>
+          <li> <span> Ctrl + ox </span> – temporarily enter normal mode to issue one normal-mode command x</li>
+          <li> <span> Esc </span> – exit insert mode</li>
         </ul>
       </details>
       <details >
         <summary> Editing </summary>
         <ul>
-          <li> <span> r </span> – replace a single character.</li>
-          <li> <span> R </span> – replace more than one character, until <span> ESC </span> is pressed.</li>
-          <li> <span> J </span> – join line below to the current one with one space in between.</li> 
-          <li> <span> gJ </span> – join line below to the current one without space in between.</li> 
-          <li> <span> gwip </span> – reflow paragraph.</li> 
-          <li> <span> g~ </span> – switch case up to motion.</li> 
-          <li> <span> gu </span> – change to lowercase up to motion.</li> 
-          <li> <span> gU </span> – change to uppercase up to motion.</li> 
-          <li> <span> cc </span> – change (replace) entire line.</li> 
-          <li> <span> c$ </span> or <span> C </span> – change (replace) to the end of the line.</li> 
-          <li> <span> ciw </span> – change (replace) entire word.</li> 
-          <li> <span> cw </span> or <span> ce </span> – change (replace) to the end of the word.</li> 
-          <li> <span> s </span> – delete character and substitute text.</li> 
-          <li> <span> S </span> – delete line and substitute text (same as cc).</li> 
-          <li> <span> xp </span> – transpose two letters(delete and paste).</li> 
-          <li> <span> u </span> – undo.</li> 
-          <li> <span> U </span> – restore (undo) last change line.</li> 
-          <li> <span> Ctrl + r </span> – redo. </li>
-          <li> <span> . </span> – repeat last command. </li>
+          <li> <span> r </span> – replace a single character</li>
+          <li> <span> R </span> – replace more than one character, until <span> ESC </span> is pressed</li>
+          <li> <span> J </span> – join line below to the current one with one space in between</li> 
+          <li> <span> gJ </span> – join line below to the current one without space in between</li> 
+          <li> <span> gwip </span> – reflow paragraph</li> 
+          <li> <span> g~ </span> – switch case up to motion</li> 
+          <li> <span> gu </span> – change to lowercase up to motion</li> 
+          <li> <span> gU </span> – change to uppercase up to motion</li> 
+          <li> <span> cc </span> – change (replace) entire line</li> 
+          <li> <span> c$ </span> or <span> C </span> – change (replace) to the end of the line</li> 
+          <li> <span> ciw </span> – change (replace) entire word</li> 
+          <li> <span> cw </span> or <span> ce </span> – change (replace) to the end of the word</li> 
+          <li> <span> s </span> – delete character and substitute text</li> 
+          <li> <span> S </span> – delete line and substitute text (same as cc)</li> 
+          <li> <span> xp </span> – transpose two letters(delete and paste)</li> 
+          <li> <span> u </span> – undo</li> 
+          <li> <span> U </span> – restore (undo) last change lin.</li> 
+          <li> <span> Ctrl + r </span> – redo</li>
+          <li> <span> . </span> – repeat last command</li>
         </ul>
       </details>
       <details >
         <summary> Marking Text (Visual Mode) </summary>
         <ul>
-          <li> <span> v </span> – start visual mode, mark lines, then do a command (like y-yank) </li>
-          <li> <span> V </span> – start linewise visual mode.</li>
-          <li> <span> o </span> – move to other end of marked area.</li>
-          <li> <span> Ctrl + v </span> – start visual block mode.</li>
-          <li> <span> O </span> – move to other corner of block.</li>
-          <li> <span> aw </span> – mark a word.</li>
-          <li> <span> ab </span> – a block with ().</li>
-          <li> <span> aB </span> – a block with {}.</li>
-          <li> <span> at </span> – a block with <> tags.</li>
-          <li> <span> ib </span> – inner block with ().</li>
-          <li> <span> iB </span> – inner block with {}.</li>
-          <li> <span> it </span> – inner block with <> tags.</li>
-          <li> <span> Esc </span> – exit visual mode.</li>
+          <li> <span> v </span> – start visual mode, mark lines, then do a command (like y-yank)</li>
+          <li> <span> V </span> – start linewise visual mode</li>
+          <li> <span> o </span> – move to other end of marked are</li>
+          <li> <span> Ctrl + v </span> – start visual block mode</li>
+          <li> <span> O </span> – move to other corner of block</li>
+          <li> <span> aw </span> – mark a word</li>
+          <li> <span> ab </span> – a block with ()</li>
+          <li> <span> aB </span> – a block with {}</li>
+          <li> <span> at </span> – a block with <> tags</li>
+          <li> <span> ib </span> – inner block with ()</li>
+          <li> <span> iB </span> – inner block with {}</li>
+          <li> <span> it </span> – inner block with <> tags</li>
+          <li> <span> Esc </span> – exit visual mode</li>
           <div class="tip-container">
             <h2><span><img src="${imagesPath}/light-bulb.svg" alt="basic cursor movements" /></span> Tip</h2> 
             <p> Instead of <b>b</b> or <b>B</b> one can also use <b>(</b> or <b>{</b>, respectively.</p>
@@ -173,9 +173,9 @@ export function getWebviewContent(
           <li> <span> < </span> – shift text left</li>
           <li> <span> y </span> – yank (copy) marked text</li>
           <li> <span> d </span> – delete marked text</li>
-          <li> <span> ~ </span> – switch case </li>
-          <li> <span> u </span> – change marked text to lowercase </li>
-          <li> <span> U </span> – change marked text to uppercase </li>
+          <li> <span> ~ </span> – switch case</li>
+          <li> <span> u </span> – change marked text to lowercase</li>
+          <li> <span> U </span> – change marked text to uppercase</li>
         </ul>
       </details>
       <details >
@@ -193,16 +193,16 @@ export function getWebviewContent(
           <div class="tip-container">
             <h2><span><img src="${imagesPath}/light-bulb.svg" alt="basic cursor movements" /></span> Tip <small> Special registers:</small></h2> 
             <ul>
-             <li> 0 - last yank </li>
-             <li> " - unnamed register, last delete or yank </li>
-             <li> % - current file name </li>
-             <li> # - alternate file name </li>
-             <li> * - clipboard contents (X11 primary) </li>
-             <li> + - clipboard contents (X11 clipboard) </li>
-             <li> / - last search pattern </li>
-             <li> : - last command-line </li>
-             <li> . - last inserted text </li>
-             <li> - - last small (less than a line) delete
+             <li> 0 - last yank</li>
+             <li> " - unnamed register, last delete or yank</li>
+             <li> % - current file name</li>
+             <li> # - alternate file name</li>
+             <li> * - clipboard contents (X11 primary)</li>
+             <li> + - clipboard contents (X11 clipboard)</li>
+             <li> / - last search pattern</li>
+             <li> : - last command-line</li>
+             <li> . - last inserted text</li>
+             <li> - - last small (less than a line) delete</li>
              <li> = - expression register </li>
              <li> _ - black hole register </li>
             </ul>
@@ -216,9 +216,9 @@ export function getWebviewContent(
           <li> <span> ma </span> - set current position for mark A</li>
           <li> <span> &#96;a </span> - jump to position of mark A</li>
           <li> <span> y&#96;a </span> - yank text to position of mark A</li>
-          <li> <span> &#96;0 </span> - go to the position where Vim was previously exited </li>
-          <li> <span> &#96;" </span> - go to the position when last editing this file </li>
-          <li> <span> &#96;. </span> - go to the position of last editing this file </li>
+          <li> <span> &#96;0 </span> - go to the position where Vim was previously exited</li>
+          <li> <span> &#96;" </span> - go to the position when last editing this file</li>
+          <li> <span> &#96;. </span> - go to the position of last editing this file</li>
           <li> <span> &#96;&#96; </span> - go to the position before the last last jump</li>
           <li> <span> :ju[mps] </span> - list of jumps</li>
           <li> <span> Ctrl + i </span> - go to newer position in jump list</li>
@@ -237,9 +237,9 @@ export function getWebviewContent(
         <summary> Macros </summary>
         <ul>
           <li> <span> qa </span> – record macro a</li>
-          <li> <span> q </span> – stop recording macro </li>
-          <li> <span> @a </span> – run macro a </li>
-          <li> <span> @@ </span> – rerun last run macro </li>
+          <li> <span> q </span> – stop recording macro</li>
+          <li> <span> @a </span> – run macro a</li>
+          <li> <span> @@ </span> – rerun last run macro</li>
         </ul>
       </details>
       <details >
@@ -281,10 +281,10 @@ export function getWebviewContent(
       <details >
         <summary> Exiting </summary>
         <ul>
-          <li> <span> :w </span> – write (save) the file, but don't exit </li>
-          <li> <span> :w !sudo tee % </span> – write out the current file using sudo </li>
-          <li> <span> :wq or </span> or <span> :x </span> or <span> ZZ </span> – write (save) and quite </li>
-          <li> <span> :q  </span> – quit (fails if there are unsaved changes) </li>
+          <li> <span> :w </span> – write (save) the file, but don't exit</li>
+          <li> <span> :w !sudo tee % </span> – write out the current file using sudo</li>
+          <li> <span> :wq or </span> or <span> :x </span> or <span> ZZ </span> – write (save) and quite</li>
+          <li> <span> :q  </span> – quit (fails if there are unsaved changes)</li>
           <li> <span> :q! </span> or <span> ZQ </span> – quit and throw away unsaved changes</li>
           <li> <span> :wqa </span> or <span> ZQ </span> – write (save) and quit on all tab</li>
         </ul>
@@ -295,11 +295,11 @@ export function getWebviewContent(
           <li> <span> /pattern </span> – search for pattern</li>
           <li> <span> ?pattern </span> – search backward for pattern</li>
           <li> <span> \vpattern </span> – 'very magic' pattern: non-alphanumeric characters are interpreted as special regex symbols (no escaping needed)</li>
-          <li> <span> n </span> – repeat search in same direction </li>
-          <li> <span> N </span> – repeat search in opposite direction </li>
-          <li> <span> :%s/old/new/g </span> – replace all old with new throught file </li>
-          <li> <span> :%s/old/new/gc </span> – replace all old with new throught file with confirmations </li>
-          <li> <span> :noh[lsearch] – remove highlighting of search matches </li>
+          <li> <span> n </span> – repeat search in same direction</li>
+          <li> <span> N </span> – repeat search in opposite direction</li>
+          <li> <span> :%s/old/new/g </span> – replace all old with new throught file</li>
+          <li> <span> :%s/old/new/gc </span> – replace all old with new throught file with confirmations</li>
+          <li> <span> :noh[lsearch] – remove highlighting of search matches</li>
         </ul>
       </details>
       <details >
