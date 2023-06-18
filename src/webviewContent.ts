@@ -246,7 +246,7 @@ export function getWebviewContent(
         <summary> Cut and paste </summary>
         <ul>
           <li> <span> yy </span> – yank (copy) a line</li>
-          <li> <span> 2y </span> – yank (copy) 2 lines</li>
+          <li> <span> 2yy </span> – yank (copy) 2 lines</li>
           <li> <span> yw </span> – yank (copy) the characters of the word from the cursor position to the start of the next word</li>
           <li> <span> yiw </span> – yank (copy) word under the cursor</li>
           <li> <span> yaw </span> – yank (copy) word under the cursor and the space after or before it</li>
