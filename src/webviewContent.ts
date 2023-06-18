@@ -188,7 +188,7 @@ export function getWebviewContent(
           <li> <span> "+p </span> – paste from the system clipboard register</li>
           <div class="tip-container">
             <h2><span><img src="${imagesPath}/light-bulb.svg" alt="basic cursor movements" /></span> Tip</h2> 
-            <p>Registers are being stored in ~/.viminfo, and will be loaded again on next restart of vim.</p>
+            <p>Registers are being stored in ~/.viminfo, and will be loaded again on the next restart of vim.</p>
           </div>
           <div class="tip-container">
             <h2><span><img src="${imagesPath}/light-bulb.svg" alt="basic cursor movements" /></span> Tip <small> Special registers:</small></h2> 
@@ -246,8 +246,8 @@ export function getWebviewContent(
         <summary> Cut and paste </summary>
         <ul>
           <li> <span> yy </span> – yank (copy) a line</li>
-          <li> <span> 2y </span> – yank (copy) 2 lines</li>
-          <li> <span> yw </span> – yank (copy) the characters of the word from the cursor posion to the start of the next word</li>
+          <li> <span> 2yy </span> – yank (copy) 2 lines</li>
+          <li> <span> yw </span> – yank (copy) the characters of the word from the cursor position to the start of the next word</li>
           <li> <span> yiw </span> – yank (copy) word under the cursor</li>
           <li> <span> yaw </span> – yank (copy) word under the cursor and the space after or before it</li>
           <li> <span> y$ </span> or  <span> Y </span> – yank (copy) to the end of line</li>
